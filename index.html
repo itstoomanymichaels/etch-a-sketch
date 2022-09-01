@@ -11,22 +11,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="wrapper">
-        <div class="header">GET YOUR SKETCH ON</div>
-        <div class="content">
-            <div class="toggle">
+    <div id="wrapper">
+        <div id="header">GET YOUR SKETCH ON</div>
+        <div id="content">
+            <div id="toggle">
                 <input type="color" value="#303030" id="color">
                 <button class="selector checked">Color</button>
                 <button class="selector">Rainbow GO</button>
                 <button class="selector">Erase Your Trace</button>
-                <button class="selector">Start Over</button>
-                <button class="selector">Toggle Grid</button>
+                <button class="toggler">Start Over</button>
+                <button class="toggler">Toggle Grid</button>
                 <div id="size">
                     <input type="range" id="gridsize" value="10" min="1" max="99">
                     <label for="gridsize" id="sizenum">10 x 10</label>
                 </div>    
             </div>
-            <div class="grid">
+            <div id="grid">
 
             </div>
         </div>
