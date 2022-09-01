@@ -49,9 +49,10 @@ clear.addEventListener("click", () => {
 const noborder = document.querySelector("#toggle :nth-child(6)");
 noborder.addEventListener("click", () => {
     grid.forEach((cell) => {
-        cell.style.border = "none";
-    })
-})
+        cell.classList.toggle("noborder");
+    });
+});
+
 const selectors = document.querySelectorAll(".selector");
 selectors.forEach((selector) => {
     selector.addEventListener("click", () => {

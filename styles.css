@@ -122,3 +122,7 @@ body {
     border: solid 1px rgb(156,156,156);
     flex: 1;
 }
+
+.noborder {
+    border: none;
+}
