@@ -75,13 +75,13 @@ body {
     transition: all .2s ease-in-out;
 }
 
-.selector:hover, #color:hover .selected:hover {
+.selector:hover, #color:hover .checked:hover {
     transform: scale(1.075);
 }
 
-.selected {
+.checked {
     background-color: #303030;
-    color:#F5F5F5
+    color:#F5F5F5;
 }
 
 

@@ -32,5 +32,12 @@ grid.forEach((cell) => {
 });
 
 const selectors = document.querySelectorAll(".selector");
+selectors.forEach((selector) => {
+    selector.addEventListener("click", () => {
+        const checked = document.querySelector(".checked");
+        checked.classList.remove("checked");
+        selector.classList.add("checked");
+    } )
+})
 
 
