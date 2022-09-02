@@ -1,6 +1,6 @@
 DEFAULT_MODE = "color";
 DEFAULT_SIZE = 10;
-DEFAULT_COLOR = "#303030";
+DEFAULT_COLOR = "#FFFFFF";
 
 let current_mode = DEFAULT_MODE;
 let current_size = DEFAULT_SIZE;
