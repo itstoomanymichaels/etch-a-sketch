@@ -75,30 +75,28 @@ body {
     transition: all .2s ease-in-out;
 }
 
-.selector:hover, #color:hover .checked:hover, .toggler:hover {
-    transform: scale(1.075);
-}
-
 .checked {
     background-color: #303030;
     color:#F5F5F5;
 }
 
+.selector:hover, #color:hover .checked:hover, .toggler:hover {
+    transform: scale(1.075);
+}
 
-#size {
+#sizeValue {
     margin-top: 20px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
-#gridsize {
+#grid-size {
     width: 100%;
 }
 
-#sizenum {
+#size {
     margin-top: 5px;
     font-family: 'Silkscreen', cursive;
     font-size: 22px;
@@ -110,11 +108,6 @@ body {
     width: 500px;
     height: 500px;
     margin-left: 20px;
-}
-
-.row {
-    display: flex;
-    flex: 1;
 }
 
 .cell {
