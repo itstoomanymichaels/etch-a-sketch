@@ -119,3 +119,28 @@ body {
 .noborder {
     border: none;
 }
+
+@media (max-width: 768px) {
+    #content {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    #grid {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 480px) {
+    #content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    #grid {
+        width: 300px;
+        height: 300px;
+    }
+}
